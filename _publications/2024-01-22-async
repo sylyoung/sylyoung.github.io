@@ -1,0 +1,11 @@
+---
+title: "Motor Imagery Classification for Asynchronous EEG-Based Brain-Computer Interfaces"
+collection: publications
+category: manuscripts
+permalink: /publication/2024-01-22-async
+excerpt: 'Motor imagery (MI) based brain-computer interfaces (BCIs) enable the direct control of external devices through the imagined movements of various body parts. Unlike previous systems that used fixed-length EEG trials for MI decoding, asynchronous BCIs aim to detect the user’s MI without explicit triggers. They are challenging to implement, because the algorithm needs to first distinguish between resting-states and MI trials, and then classify the MI trials into the correct task, all without any triggers. This paper proposes a sliding window prescreening and classification (SWPC) approach for MI-based asynchronous BCIs, which consists of two modules: a prescreening module to screen MI trials out of the resting-state, and a classification module for MI classification. Both modules are trained with supervised learning followed by self-supervised learning, which refines the feature extractors. Within-subject and cross-subject asynchronous MI classifications on four different EEG datasets validated the effectiveness of SWPC, i.e., it always achieved the highest average classification accuracy, and outperformed the best state-of-the-art baseline on each dataset by about 2%.'
+date: '2024-01-22'
+venue: 'IEEE Transactions on Neural Systems and Rehabilitation Engineering'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/10411116'
+citation: 'H. Wu, S. Li, and D. Wu, "Motor Imagery Classification for Asynchronous EEG-Based Brain-Computer Interfaces," <i>IEEE Trans. Neural Syst. Rehabil. Eng.</i>, 32:527–536, 2024.'
+---
