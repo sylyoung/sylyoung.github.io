@@ -1,0 +1,11 @@
+---
+title: "Black-Box Test-Time Ensemble"
+collection: publications
+category: manuscripts
+permalink: /publication/2025-SMLOVR
+excerpt: 'Privacy considerations have become increasingly critical in the deployment of modern machine learning models. To protect sensitive data and reduce storage or transmission costs, many service providers offer trained models via APIs, effectively creating privacy-preserving black-box models. However, evaluating the performance of such models remains to be a significant challenge, especially for downstream tasks lacking labeled data. This paper proposes an unsupervised combination method for black-box test-time ensemble. By utilizing only the models’ predictions on unlabeled test data, the proposed approach estimates the reliability of individual base classifiers and constructs a weighted ensemble that favors more accurate ones. Our approach is compatible with both traditional machine learning classifiers and modern large language models, and accommodates a wide range of scenarios, including binary and multi-class classification, hard and soft outputs, and both offline and online settings. Extensive experiments on 13 real-world text, image, and time series datasets verified the effectiveness and flexibility of the approach, consistently outperforming majority voting and other combination approaches. Notably, the proposed approach is hyperparameter-free and computationally efficient, rendering it well-suited for applications that require online real-time inference.'
+date: 2025-01-01
+venue: 'IEEE Computational Intelligence Magazine'
+paperurl: 'https://github.com/sylyoung/TestEnsemble/blob/main/paper/2025_SMLovr_CIM.pdf'
+citation: 'S. Li, Z. Wang, C. Liu, and D. Wu*, "Black-Box Test-Time Ensemble," <i>IEEE Comput. Intell. Mag.</i>, accepted, 2025.'
+---
