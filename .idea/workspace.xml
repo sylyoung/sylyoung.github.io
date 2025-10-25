@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a51da77-ced4-4e9a-a785-315928205164" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/_talks/2012-03-01-talk-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_talks/2024-12-23-poster.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_talks/2023-07-01-tutorial.md" beforeDir="false" afterPath="$PROJECT_DIR$/_talks/2023-06-22-tutorial.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/2023-07-01-tutorial.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/2023-06-22-tutorial.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_talks/2024-12-23-poster.md" beforeDir="false" afterPath="$PROJECT_DIR$/_talks/2024-12-23-poster.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <workItem from="1760793700772" duration="1196000" />
       <workItem from="1761186408648" duration="35000" />
       <workItem from="1761186455903" duration="26000" />
-      <workItem from="1761186493848" duration="17844000" />
+      <workItem from="1761186493848" duration="18149000" />
     </task>
     <servers />
   </component>
