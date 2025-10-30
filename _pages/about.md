@@ -15,7 +15,7 @@ For applications, I am particularly interested in brain decoding for brain-compu
 
 Education
 ======
-1. Ph.D. (Candidate) in Artificial Intelligence, 2022-Jun. 2026 (expected)<br>
+1. Ph.D. (Candidate) in Artificial Intelligence, 2022-<br>
 School of Artificial Intelligence and Automation<br>
 Huazhong University of Science and Technology, China<br>
 Supervisor: [Prof. Dongrui Wu](https://scholar.google.com/citations?user=UYGzCPEAAAAJ)
