@@ -32,12 +32,13 @@ Selected Publications
 <strong>Siyang Li</strong>, .., Lieyun Ding<sup>📩</sup>, Dongrui Wu<sup>📩</sup><br>
 <em><a href="https://ieeexplore.ieee.org/abstract/document/10210666"><strong>IEEE TBME</strong></a></em> 2024 [<a href="https://github.com/sylyoung/DeepTransferEEG">Code</a>]<br>
 &#9873; <strong><font color="blue"> Youth Paper Defense Competition Award, World Robot Contest (WRC) - BCI Track, 2023</font></strong> <br>
-&#9873; <strong><font color="blue"> Poster, the 1st Chinese Conference on Brain-Machine Intelligence (ChinaBMI), CAAI, 2024 </font></strong> <br>
+&#9873; <strong><font color="blue"> Poster, Spotlight, the 1st Chinese Conference on Brain-Machine Intelligence (ChinaBMI), CAAI, 2024 </font></strong> <br>
 &#9873; <strong><font color="blue"> China Patent </font></strong></p>
 
 <p><strong>Black-Box Test-Time Ensemble</strong><br>
 <strong>Siyang Li</strong>, .., Dongrui Wu<sup>📩</sup><br>
 <em><a href="https://github.com/sylyoung/TestEnsemble/blob/main/paper/2025_SMLovr_CIM.pdf"><strong>IEEE CIM (accepted)</strong></a></em> 2025 [<a href="https://github.com/sylyoung/TestEnsemble">Code</a>]<br>
+&#9873; <strong><font color="blue"> Poster, the 2nd Chinese Conference on Brain-Machine Intelligence (ChinaBMI), CAAI, 2025 </font></strong> <br>
 &#9873; <strong><font color="blue"> China Patent </font></strong><br></p>
 
 <p><strong>Canine EEG helps human: cross-species and cross-modality epileptic seizure detection via multi-space alignment</strong><br>
