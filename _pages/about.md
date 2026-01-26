@@ -7,6 +7,10 @@ redirect_from:
   - /about.html
 ---
 
+News
+======
+I am looking for postdoc positions in BCI/AI/BME. Feel free to contact me for any related positions. 
+
 Biography
 ======
 My research spans machine learning theory, algorithms, and models. Technically, I study transfer learning, ensemble learning, and multimodal learning. I am also familiar with signal processing techniques, modern large language models and vision-language models (LLMs/VLMs). 
@@ -37,7 +41,7 @@ Selected Publications
 
 <p><strong>Black-Box Test-Time Ensemble</strong><br>
 <strong>Siyang Li</strong>, .., Dongrui Wu<sup>📩</sup><br>
-<em><a href="https://github.com/sylyoung/TestEnsemble/blob/main/paper/2025_SMLovr_CIM.pdf"><strong>IEEE CIM (accepted)</strong></a></em> 2025 [<a href="https://github.com/sylyoung/TestEnsemble">Code</a>]<br>
+<em><a href="https://ieeexplore.ieee.org/document/11353100/"><strong>IEEE CIM</strong></a></em> 2025 [<a href="https://github.com/sylyoung/TestEnsemble">Code</a>]<br>
 &#9873; <strong><font color="blue"> Poster, the 2nd Chinese Conference on Brain-Machine Intelligence (ChinaBMI), CAAI, 2025 </font></strong> <br>
 &#9873; <strong><font color="blue"> China Patent </font></strong><br></p>
 
