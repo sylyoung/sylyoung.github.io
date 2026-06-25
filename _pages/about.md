@@ -19,14 +19,14 @@ For applications, I am particularly interested in brain decoding for brain-compu
 
 Education
 ======
-1. Ph.D. (Candidate) in Artificial Intelligence, 2022-<br>
+1. Ph.D. in Artificial Intelligence, 2026<br>
 School of Artificial Intelligence and Automation<br>
 Huazhong University of Science and Technology, China<br>
 Supervisor: [Prof. Dongrui Wu](https://scholar.google.com/citations?user=UYGzCPEAAAAJ)
-2. Master in Artificial Intelligence, 2020-2021<br>
+2. Master in Artificial Intelligence, 2021<br>
 College of Arts and Science<br>
 Boston University, USA
-3. Bachelor in Mathematics and Computer Science, 2014-2018<br>
+3. Bachelor in Mathematics and Computer Science, 2018<br>
 Courant Institute, College of Arts and Science<br>
 New York University, USA  
 
