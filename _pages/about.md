@@ -32,18 +32,22 @@ New York University, USA
 
 Selected Publications
 ======
-<p><strong>T-TIME: Test-Time Information Maximization Ensemble for Plug-and-Play BCIs</strong><br>
-<strong>Siyang Li</strong>, .., Lieyun Ding<sup>📩</sup>, Dongrui Wu<sup>📩</sup><br>
-<em><a href="https://ieeexplore.ieee.org/abstract/document/10210666"><strong>IEEE TBME</strong></a></em> 2024 [<a href="https://github.com/sylyoung/DeepTransferEEG">Code</a>]<br>
-&#9873; <strong><font color="blue"> Youth Paper Defense Competition Award, World Robot Contest (WRC) - BCI Track, 2023</font></strong> <br>
-&#9873; <strong><font color="blue"> Poster, Spotlight, the 1st Chinese Conference on Brain-Machine Intelligence (ChinaBMI), CAAI, 2024 </font></strong> <br>
-&#9873; <strong><font color="blue"> China Patent </font></strong></p>
+<p><strong>StackingNet: Collective Inference of Independent AI Foundation Models</strong><br>
+<strong>Siyang Li</strong>, .., Dongrui Wu<sup>📩</sup><br>
+<em><a href="https://arxiv.org/abs/2602.13792"><strong>Advanced Science</strong></a></em> 2026 [<a href="https://github.com/sylyoung/TestEnsemble">Code</a>]<br>
 
 <p><strong>Black-Box Test-Time Ensemble</strong><br>
 <strong>Siyang Li</strong>, .., Dongrui Wu<sup>📩</sup><br>
 <em><a href="https://ieeexplore.ieee.org/document/11353100/"><strong>IEEE CIM</strong></a></em> 2025 [<a href="https://github.com/sylyoung/TestEnsemble">Code</a>]<br>
 &#9873; <strong><font color="blue"> Poster, the 2nd Chinese Conference on Brain-Machine Intelligence (ChinaBMI), CAAI, 2025 </font></strong> <br>
 &#9873; <strong><font color="blue"> China Patent </font></strong><br></p>
+
+<p><strong>T-TIME: Test-Time Information Maximization Ensemble for Plug-and-Play BCIs</strong><br>
+<strong>Siyang Li</strong>, .., Lieyun Ding<sup>📩</sup>, Dongrui Wu<sup>📩</sup><br>
+<em><a href="https://ieeexplore.ieee.org/abstract/document/10210666"><strong>IEEE TBME</strong></a></em> 2024 [<a href="https://github.com/sylyoung/DeepTransferEEG">Code</a>]<br>
+&#9873; <strong><font color="blue"> Youth Paper Defense Competition Award, World Robot Contest (WRC) - BCI Track, 2023</font></strong> <br>
+&#9873; <strong><font color="blue"> Poster, Spotlight, the 1st Chinese Conference on Brain-Machine Intelligence (ChinaBMI), CAAI, 2024 </font></strong> <br>
+&#9873; <strong><font color="blue"> China Patent </font></strong></p>
 
 <p><strong>Canine EEG helps human: cross-species and cross-modality epileptic seizure detection via multi-space alignment</strong><br>
 .., <strong>Siyang Li</strong>, Dongrui Wu<sup>📩</sup><br>
