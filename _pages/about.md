@@ -9,7 +9,11 @@ redirect_from:
 
 News
 ======
-I am looking for postdoc positions in BCI/AI/BME. Feel free to contact me for any related positions. 
+I am looking for postdoc positions in AI/Agents/BCI/BME/Neuroscience. Feel free to contact me for related positions. 
+
+Our paper **StackingNet: Collective Inference across Independent AI Foundation Models** has been accepted at **Advanced Science**!
+
+![StackingNet accepted at Advanced Science](/images/2026-stackingnet-advanced-science.png){: width="700" }
 
 Biography
 ======
@@ -32,7 +36,7 @@ New York University, USA
 
 Selected Publications
 ======
-<p><strong>StackingNet: Collective Inference of Independent AI Foundation Models</strong><br>
+<p><strong>StackingNet: Collective Inference across Independent AI Foundation Models</strong><br>
 <strong>Siyang Li</strong>, .., Dongrui Wu<sup>📩</sup><br>
 <em><a href="https://arxiv.org/abs/2602.13792"><strong>Advanced Science</strong></a></em> 2026 [<a href="https://github.com/sylyoung/TestEnsemble">Code</a>]<br>
 
