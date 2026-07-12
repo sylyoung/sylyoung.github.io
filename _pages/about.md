@@ -42,7 +42,7 @@ Selected Publications
 
 <p><strong>Black-Box Test-Time Ensemble</strong><br>
 <strong>Siyang Li</strong>, Ziwei Wang, Chenhao Liu, Dongrui Wu<sup>📩</sup><br>
-<em><a href="https://ieeexplore.ieee.org/document/11353100/"><strong>IEEE CIM</strong></a></em> 2025 [<a href="https://github.com/sylyoung/TestEnsemble">Code</a>]<br>
+<em><a href="https://ieeexplore.ieee.org/document/11353100/"><strong>IEEE CIM</strong></a></em> 2026 [<a href="https://github.com/sylyoung/TestEnsemble">Code</a>]<br>
 &#9873; <strong><font color="blue"> Poster, the 2nd Chinese Conference on Brain-Machine Intelligence (ChinaBMI), CAAI, 2025 </font></strong> <br>
 &#9873; <strong><font color="blue"> China Patent </font></strong><br></p>
 
