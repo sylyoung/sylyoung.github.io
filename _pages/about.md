@@ -15,6 +15,8 @@ Our paper **StackingNet: Collective Inference Across Independent AI Foundation M
 
 ![StackingNet published in Advanced Science](/images/2026-stackingnet-advanced-science.png){: width="600" }
 
+I built and will manage **[HUST-BCIML](https://github.com/sylyoung/HUST-BCIML)**, a repository collecting the published code and related resources of [Prof. Dongrui Wu](https://scholar.google.com/citations?user=UYGzCPEAAAAJ)'s lab.
+
 Biography
 ======
 My research spans machine learning theory, algorithms, and models. Technically, I study transfer learning, ensemble learning, and multimodal learning. I am also familiar with signal processing techniques, modern large language models and vision-language models (LLMs/VLMs). 
