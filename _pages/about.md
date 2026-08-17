@@ -7,6 +7,12 @@ redirect_from:
   - /about.html
 ---
 
+Biography
+======
+My research spans machine learning theory, algorithms, and models. Technically, I study transfer learning, ensemble learning, and multimodal learning. I am also familiar with signal processing techniques, modern large language models and vision-language models (LLMs/VLMs). 
+
+For applications, I am particularly interested in brain decoding for brain-computer interfaces (BCIs). For the long-term goal, I aim at multimodal human-computer interaction systems for future generations.
+
 News
 ======
 
@@ -28,12 +34,6 @@ News
     <div class="news-content">I built and will manage <a href="https://github.com/sylyoung/HUST-BCIML"><strong>HUST-BCIML</strong></a>, a repository collecting the published code and related resources of <a href="https://scholar.google.com/citations?user=UYGzCPEAAAAJ">Prof. Dongrui Wu</a>'s lab.</div>
   </li>
 </ul>
-
-Biography
-======
-My research spans machine learning theory, algorithms, and models. Technically, I study transfer learning, ensemble learning, and multimodal learning. I am also familiar with signal processing techniques, modern large language models and vision-language models (LLMs/VLMs). 
-
-For applications, I am particularly interested in brain decoding for brain-computer interfaces (BCIs). For the long-term goal, I aim at multimodal human-computer interaction systems for future generations.
 
 Education
 ======
