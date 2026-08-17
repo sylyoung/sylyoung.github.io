@@ -21,7 +21,7 @@ News
   </li>
   <li class="news-item item-publication">
     <span class="news-tag">Publication</span>
-    <div class="news-content">Our paper <strong>StackingNet: Collective Inference Across Independent AI Foundation Models</strong> is now published (Open Access) in <a href="https://doi.org/10.1002/advs.76488"><strong>Advanced Science</strong></a>!<a class="news-figure" href="/images/2026-stackingnet-advanced-science.png" target="_blank"><img src="/images/2026-stackingnet-advanced-science.png" alt="StackingNet published in Advanced Science" /></a></div>
+    <div class="news-content">Our paper <strong>StackingNet: Collective Inference Across Independent AI Foundation Models</strong> is now published (Open Access) in <a href="https://doi.org/10.1002/advs.76488"><strong>Advanced Science</strong></a>! Many thanks to my co-first author <strong>Chenhao Liu</strong>!<a class="news-figure" href="/images/2026-stackingnet-advanced-science.png" target="_blank"><img src="/images/2026-stackingnet-advanced-science.png" alt="StackingNet published in Advanced Science" /></a></div>
   </li>
   <li class="news-item item-code">
     <span class="news-tag">Open Source</span>
