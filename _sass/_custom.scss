@@ -170,6 +170,28 @@
 .page.home .pub-award a { color: inherit; text-decoration: underline; }
 .page.home .pub-award--patent { color: #4b43b8; background: #ecebfb; border-color: #d9d6f5; }
 .page.home .pub-award--media { color: #1e6fb0; background: #e6f1fb; border-color: #cadff3; }
+.page.home .pub-accepted {
+  font-size: 0.78em; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em;
+  color: #1b7a3d; background: #e7f6ec; border: 1px solid #cbe8d2; border-radius: 6px;
+  padding: 1px 9px;
+}
+
+/* ---- Code / Repositories ---- */
+.page.home .repo-list { display: grid; gap: 14px; margin-top: 1.3em; }
+.page.home .repo {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-left: 4px solid #5b53c4;
+  border-radius: 12px;
+  padding: 15px 18px;
+  box-shadow: var(--card-shadow);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.page.home .repo:hover { box-shadow: var(--card-shadow-hover); transform: translateY(-2px); }
+.page.home .repo-name { font-weight: 700; font-size: 1.05em; color: var(--ink); }
+.page.home .repo-name a { color: var(--accent); text-decoration: none; }
+.page.home .repo-name a:hover { text-decoration: underline; }
+.page.home .repo-desc { margin-top: 4px; color: var(--muted); font-size: 0.95em; line-height: 1.5; }
 
 /* ---- Small screens ---- */
 @media (max-width: 600px) {
