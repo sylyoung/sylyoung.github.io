@@ -172,10 +172,6 @@
 .page.home .pub-award a { color: inherit; text-decoration: underline; }
 .page.home .pub-award--patent { color: #4b43b8; background: #ecebfb; border-color: #d9d6f5; }
 .page.home .pub-award--media { color: #1e6fb0; background: #e6f1fb; border-color: #cadff3; }
-.page.home .pub-note {
-  margin-top: 8px; font-size: 0.82em; color: var(--muted);
-}
-
 /* ---- Code / Repositories ---- */
 .page.home .repo-list { display: grid; gap: 14px; margin-top: 1.3em; }
 .page.home .repo {
