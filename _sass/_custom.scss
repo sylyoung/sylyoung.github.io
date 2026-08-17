@@ -194,3 +194,45 @@
   .page.home .news-item { flex-direction: column; gap: 8px; }
   .page.home .news-tag { align-self: flex-start; }
 }
+
+/* ==========================================================================
+   Full-width home layout (user 2026-08-17)
+   The theme caps the content container at 1280px and pads the content column
+   with a right gutter, so on wide screens the right side of the page is dead
+   space. On the homepage, lift the cap, lay out sidebar + content as a grid,
+   and let the content fill the remaining width.
+   ========================================================================== */
+
+@media screen and (min-width: 925px) {   /* $large — where sidebar sits beside content */
+  body:has(.page.home) #main {
+    max-width: none;                       /* lift the 1280px cap */
+    display: grid;
+    grid-template-columns: minmax(190px, 240px) minmax(0, 1fr);
+    column-gap: 2.4em;
+    align-items: start;
+  }
+  body:has(.page.home) #main .sidebar {
+    position: sticky;                      /* author card stays visible while scrolling */
+    top: 1.2em;
+    float: none;
+    width: auto;
+    margin: 0;
+    height: auto;
+    overflow: visible;
+    padding-top: 0;
+  }
+  .page.home {
+    float: none;
+    width: auto;
+    min-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* ---- More content per row on wide screens ---- */
+.page.home .pub-list { grid-template-columns: repeat(auto-fit, minmax(430px, 1fr)); }
+.page.home .edu-list { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.page.home .repo-list { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+/* keep news screenshots from blowing up in the wider column */
+.page.home .news-figure { max-width: min(100%, 900px); }
