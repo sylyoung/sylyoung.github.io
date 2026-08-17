@@ -1,0 +1,11 @@
+---
+title: "Synthetic Data Generation for Brain-Computer Interfaces: Overview, Benchmarking, and Future Directions"
+collection: publications
+category: preprints
+permalink: /publication/2026-03-11-synthetic-data
+excerpt: "Deep learning has achieved transformative performance across diverse domains, largely driven by large-scale and high-quality training data. In contrast, the development of brain-computer interfaces (BCIs) is fundamentally constrained by limited, heterogeneous, and privacy-sensitive neural recordings. Generating synthetic yet physiologically plausible brain signals has therefore emerged as a promising strategy to mitigate data scarcity, improve model generalization, and support data-efficient BCIs. This survey provides a comprehensive review of synthetic brain data generation for BCIs, covering methodological taxonomies, benchmark experiments, evaluation metrics, key applications, and future directions. We systematically categorize existing generation approaches into four types: signal-transformation-based, feature-based, model-based, and translation-based generation, and discuss their characteristics, advantages, and limitations. Furthermore, we benchmark representative brain signal generation approaches across four BCI paradigms, including motor imagery, epileptic seizure detection, steady-state visually evoked potentials, and auditory attention detection, to provide an objective comparison of their downstream utility. We also summarize evaluation principles for generated brain signals from multiple perspectives, including signal realism, physiological plausibility, downstream utility, and privacy preservation. Finally, we discuss the potential and challenges of current generation approaches and outline future research directions toward accurate, data-efficient, generalizable, and privacy-aware BCI systems. The benchmark codebase is available at https://github.com/wzwvv/DG4BCI."
+date: '2026-03-11'
+venue: 'arXiv'
+paperurl: 'https://arxiv.org/abs/2603.12296'
+citation: 'Z. Wang, Z. He, X. He, H. Wang, T. Jia, J. Luo, S. Li, X. Chen, and D. Wu, "Synthetic Data Generation for Brain-Computer Interfaces: Overview, Benchmarking, and Future Directions," arXiv preprint arXiv:2603.12296, 2026.'
+---
