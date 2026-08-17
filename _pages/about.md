@@ -66,7 +66,7 @@ Selected Publications
   <div class="pub">
     <div class="pub-title"><a href="https://arxiv.org/abs/2601.07556">Backpropagation-Free Test-Time Adaptation for Lightweight EEG-Based Brain-Computer Interfaces</a></div>
     <div class="pub-authors"><strong>Siyang Li</strong><sup>†</sup>, Jiayi Ouyang<sup>†</sup>, Zhenyao Cui<sup>†</sup>, Ziwei Wang, Tianwang Jia, Feng Wan, Dongrui Wu<sup>📩</sup></div>
-    <div class="pub-venue"><em><a href="https://arxiv.org/abs/2601.07556">IEEE Journal of Biomedical and Health Informatics</a></em> <span class="pub-year">2026</span> <a class="pub-link" href="https://arxiv.org/abs/2601.07556">arXiv</a></div>
+    <div class="pub-venue"><em><a href="https://arxiv.org/abs/2601.07556">IEEE Journal of Biomedical and Health Informatics</a></em> <span class="pub-year">2026</span> <a class="pub-link" href="https://github.com/sylyoung/DeepTransferEEG">Code</a></div>
   </div>
   <div class="pub">
     <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/11353100/">Black-Box Test-Time Ensemble</a></div>
