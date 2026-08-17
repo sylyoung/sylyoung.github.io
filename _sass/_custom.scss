@@ -3,20 +3,37 @@
    Imported last from assets/css/main.scss so it overrides the theme.
    ========================================================================== */
 
-.page.home {
+/* Design tokens — site-wide, so every page shares the homepage's palette */
+:root {
   --accent: #2f7f93;          /* theme teal (info color) */
   --accent-strong: #24606f;
+  --accent-soft: #e3f1f5;     /* light teal tint for chips/table headers */
   --ink: #2b3137;
   --muted: #6b7280;
   --card-bg: #ffffff;
   --card-border: #e6e8ea;
   --card-shadow: 0 1px 3px rgba(20, 30, 40, 0.06);
   --card-shadow-hover: 0 6px 20px rgba(20, 30, 40, 0.12);
+
+  /* Retune the theme's own variables so links/text/borders match everywhere */
+  --global-link-color: var(--accent);
+  --global-link-color-hover: var(--accent-strong);
+  --global-link-color-visited: var(--accent);
+  --global-text-color: var(--ink);
+  --global-border-color: var(--card-border);
+  --global-masthead-link-color: var(--ink);
+  --global-masthead-link-color-hover: var(--accent);
+  --global-thead-color: #f2f7f8;
 }
 
-/* ---- Section headings (News / Biography / Education / Publications) ---- */
+/* ---- Section headings (News / Biography / Education / Publications) ----
+   Global: applies to content pages (paper/talk pages, markdown demo) and to
+   the category headers on the archive pages. */
 .page.home .page__content h1,
-.page.home .page__content h2 {
+.page.home .page__content h2,
+.page__content h1,
+.page__content h2,
+.archive > h2 {
   font-size: 1.5em;
   font-weight: 700;
   color: var(--ink);
@@ -27,9 +44,14 @@
   letter-spacing: -0.01em;
 }
 .page.home .page__content h1:first-child,
-.page.home .page__content h2:first-child { margin-top: 0.4em; }
+.page.home .page__content h2:first-child,
+.page__content h1:first-child,
+.page__content h2:first-child { margin-top: 0.4em; }
 .page.home .page__content h1::after,
-.page.home .page__content h2::after {
+.page.home .page__content h2::after,
+.page__content h1::after,
+.page__content h2::after,
+.archive > h2::after {
   content: "";
   position: absolute;
   left: 0;
@@ -38,6 +60,18 @@
   height: 3px;
   border-radius: 3px;
   background: var(--accent);
+}
+/* the theme prints an <hr> right under archive category headers; the accent
+   bar on the h2 makes it redundant */
+.archive > h2 + hr { display: none; }
+
+/* Sub-headings on content pages */
+.page__content h3,
+.page__content h4 {
+  color: var(--ink);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 1.5em 0 0.6em;
 }
 
 /* ---- Body copy ---- */
@@ -204,14 +238,16 @@
    ========================================================================== */
 
 @media screen and (min-width: 925px) {   /* $large — where sidebar sits beside content */
-  body:has(.page.home) #main {
+  /* Every page that carries the author sidebar (home, publications, talks,
+     CV, paper/talk pages) gets the same full-width grid treatment. */
+  #main:has(.sidebar) {
     max-width: none;                       /* lift the 1280px cap */
     display: grid;
     grid-template-columns: minmax(190px, 240px) minmax(0, 1fr);
     column-gap: 2.4em;
     align-items: start;
   }
-  body:has(.page.home) #main .sidebar {
+  #main:has(.sidebar) .sidebar {
     position: sticky;                      /* author card stays visible while scrolling */
     top: 1.2em;
     float: none;
@@ -221,13 +257,17 @@
     overflow: visible;
     padding-top: 0;
   }
-  .page.home {
+  #main .page,
+  #main .archive,
+  #main .page__related {
     float: none;
     width: auto;
     min-width: 0;
     padding-left: 0;
     padding-right: 0;
+    margin-left: 0;
   }
+  #main .list__item { padding-right: 0; }
 }
 
 /* ---- More content per row on wide screens ---- */
@@ -236,3 +276,212 @@
 .page.home .repo-list { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
 /* keep news screenshots from blowing up in the wider column */
 .page.home .news-figure { max-width: min(100%, 900px); }
+
+/* ==========================================================================
+   Site-wide polish (user 2026-08-17: "improve the whole github.io app pages,
+   notice all aesthetics") — every page now shares the homepage's design
+   language: teal accent, ink text, rounded cards, accent heading bars.
+   ========================================================================== */
+
+/* ---- Page title (publications / talks / CV / paper pages) ---- */
+.page__title {
+  font-size: 1.75em;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  line-height: 1.25;
+  margin: 0.3em 0 1.2em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--card-border);
+  position: relative;
+}
+.page__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 52px;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--accent);
+}
+#main > .archive > .page__title { margin-bottom: 1em; }
+
+/* ---- Masthead (top nav) ---- */
+.masthead__inner-wrap { max-width: none; }          /* nav spans the full width */
+.masthead__menu-item a {
+  color: var(--ink);
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 0.3em 0.6em;
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+.masthead__menu-item a:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+.masthead__menu-item--lg a { font-weight: 800; color: var(--accent-strong); }
+.masthead__menu-item--lg a:hover { background: transparent; }
+
+/* ---- Author sidebar card (all pages) ---- */
+.sidebar .author__avatar img {
+  border: 2px solid var(--card-border);
+  border-radius: 50%;
+  padding: 3px;
+  box-shadow: var(--card-shadow);
+}
+.sidebar .author__name { font-size: 1.15em; font-weight: 800; color: var(--ink); }
+.sidebar .author__pronouns,
+.sidebar .author__bio,
+.sidebar .author__content p { color: var(--muted); }
+.sidebar .author__urls a { color: var(--muted); }
+.sidebar .author__urls a:hover { color: var(--accent); text-decoration: none; }
+
+/* ---- Archive pages (publications / talks): items become cards ---- */
+#main .archive__item {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-left: 4px solid var(--accent);
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: var(--card-shadow);
+  margin: 0 0 14px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+#main .archive__item:hover {
+  box-shadow: var(--card-shadow-hover);
+  transform: translateY(-2px);
+}
+#main .archive__item-title {
+  font-family: inherit;
+  font-size: 1.05em;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 0.4em;
+}
+#main .archive__item-title a { color: var(--ink); text-decoration: none; }
+#main .archive__item-title a:hover { color: var(--accent); text-decoration: underline; }
+/* venue / type line ("Published in <i>Journal</i>, YEAR") */
+#main .archive__item > p:not(.archive__item-excerpt):not(.page__meta):not(.page__date) {
+  color: var(--accent-strong);
+  font-weight: 600;
+  font-size: 0.95em;
+  margin: 0 0 8px;
+}
+#main .archive__item > p:not(.archive__item-excerpt) em,
+#main .archive__item > p:not(.archive__item-excerpt) i { font-style: normal; }
+#main .archive__item .page__meta { color: var(--muted); margin: 0 0 8px; font-size: 0.95em; }
+#main .archive__item-excerpt { color: #3f464d; font-size: 0.95em; line-height: 1.6; }
+#main .archive__item-excerpt p { margin-bottom: 0; }
+
+/* multi-column card grid on wide screens (2 columns at ~1600px) */
+#main .archive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+  gap: 14px;
+  align-items: start;
+}
+#main .archive > h2 { grid-column: 1 / -1; margin-bottom: 0.2em; }
+#main .archive .list__item { margin: 0; }
+#main .archive .cv-download-links { grid-column: 1 / -1; }
+
+/* ---- Single pages (paper / talk): citation block ---- */
+article.page .page__content p[style*="smaller"] {
+  background: #f7f9fb;
+  border: 1px solid var(--card-border);
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  padding: 12px 16px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+article.page .page__content p[style*="smaller"] a {
+  font-weight: 700;
+  text-decoration: none;
+}
+article.page .page__content p[style*="smaller"] a:hover { text-decoration: underline; }
+/* "Published in <i>Journal</i>, YEAR" under the title on paper pages */
+article.page header > p:not(.page__meta):not(.page__date) {
+  color: var(--accent-strong);
+  font-weight: 600;
+  font-size: 1em;
+  margin: 0.4em 0 0.2em;
+}
+article.page header > p:not(.page__meta):not(.page__date) em,
+article.page header > p:not(.page__meta):not(.page__date) i { font-style: normal; }
+
+/* ---- Taxonomy pills (categories on paper pages) ---- */
+.page__taxonomy strong { color: var(--ink); }
+.page__taxonomy-item {
+  border-radius: 999px;
+  border-color: var(--card-border);
+  background: var(--card-bg);
+  color: var(--muted);
+  font-size: 0.85em;
+  padding: 3px 12px;
+}
+.page__taxonomy-item:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  text-decoration: none;
+}
+
+/* ---- Links inside prose: underline on hover only ---- */
+.page__content a { text-decoration: none; }
+.page__content a:hover { text-decoration: underline; }
+
+/* ---- Buttons (CV download, "Direct Link") ---- */
+.btn { border-radius: 8px; font-weight: 600; }
+.btn--primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.btn--primary:hover {
+  background: var(--accent-strong);
+  border-color: var(--accent-strong);
+  color: #fff;
+}
+.cv-download-links { margin: 0.5em 0 2em; }
+
+/* ---- Tables, code, blockquote (paper pages, markdown demo) ---- */
+.page__content table {
+  border: 1px solid var(--card-border);
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+}
+.page__content th {
+  background: var(--accent-soft);
+  color: var(--ink);
+  font-weight: 700;
+  text-align: left;
+}
+.page__content td,
+.page__content th { border-color: var(--card-border); padding: 8px 12px; }
+.page__content tr:nth-child(even) td { background: #fafbfc; }
+.page__content code {
+  background: #f4f6f7;
+  border: 1px solid var(--card-border);
+  border-radius: 5px;
+  padding: 1px 6px;
+  font-size: 0.88em;
+}
+.page__content pre {
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
+}
+.page__content pre code { background: transparent; border: 0; }
+.page__content blockquote {
+  border-left: 4px solid var(--accent);
+  background: #f7f9fb;
+  border-radius: 0 10px 10px 0;
+  padding: 0.3em 1.2em;
+}
+
+/* ---- Footer ---- */
+.page__footer footer a:hover { color: var(--accent); }
