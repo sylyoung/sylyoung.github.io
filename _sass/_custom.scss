@@ -374,16 +374,16 @@
 #main .archive__item-excerpt { color: #3f464d; font-size: 0.95em; line-height: 1.6; }
 #main .archive__item-excerpt p { margin-bottom: 0; }
 
-/* multi-column card grid on wide screens (2 columns at ~1600px) */
+/* multi-column card grid on wide screens (2-3 columns, masonry-packed so
+   cards of different heights leave no white voids — a row-based grid with
+   ragged card heights showed big empty gaps under the short cards) */
 #main .archive {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
-  gap: 14px;
-  align-items: start;
+  column-width: 430px;
+  column-gap: 14px;
 }
-#main .archive > h2 { grid-column: 1 / -1; margin-bottom: 0.2em; }
-#main .archive .list__item { margin: 0; }
-#main .archive .cv-download-links { grid-column: 1 / -1; }
+#main .archive > h2 { column-span: all; margin-bottom: 0.2em; }
+#main .archive .list__item { break-inside: avoid; margin: 0 0 14px; }
+#main .archive .cv-download-links { column-span: all; }
 
 /* ---- Single pages (paper / talk): citation block ---- */
 article.page .page__content p[style*="smaller"] {
@@ -485,3 +485,14 @@ article.page header > p:not(.page__meta):not(.page__date) i { font-style: normal
 
 /* ---- Footer ---- */
 .page__footer footer a:hover { color: var(--accent); }
+
+/* ==========================================================================
+   Page-title headlines removed (user 2026-08-17)
+   The h1.page__title ("Siyang Li" on home, "Publications"/"Talks"/"CV" on
+   the archive pages, the paper title on detail pages) duplicates the author
+   sidebar name and/or the browser tab title, so hide it everywhere. Section
+   headers inside the content (Biography, News, ...) are kept.
+   ========================================================================== */
+.page__title { display: none; }
+/* after the title is gone, the first category header starts the page */
+.archive > h2:first-of-type { margin-top: 0.4em; }
