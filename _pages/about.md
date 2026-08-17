@@ -17,7 +17,7 @@ News
   </li>
   <li class="news-item item-publication">
     <span class="news-tag">Publication</span>
-    <div class="news-content">Our paper <strong>Backpropagation-Free Test-Time Adaptation for Lightweight EEG-Based Brain-Computer Interfaces</strong> has been accepted by <a href="https://arxiv.org/abs/2601.07556"><strong>IEEE Journal of Biomedical and Health Informatics (JBHI)</strong></a>! Many thanks to my co-first authors <strong>Jiayi Ouyang</strong> and <strong>Zhenyao Cui</strong>!<a class="news-figure" href="/images/2026-bft-jbhi.png" target="_blank"><img src="/images/2026-bft-jbhi.png" alt="Backpropagation-Free Test-Time Adaptation" /></a></div>
+    <div class="news-content">Our paper <strong>Backpropagation-Free Test-Time Adaptation for Lightweight EEG-Based Brain-Computer Interfaces</strong> has been accepted by <a href="https://arxiv.org/abs/2601.07556"><strong>IEEE Journal of Biomedical and Health Informatics (JBHI)</strong></a>! Many thanks to my co-first authors <strong>Jiayi Ouyang</strong> and <strong>Zhenyao Cui</strong>!<a class="news-figure" href="/images/2026-bft-arxiv.png" target="_blank"><img src="/images/2026-bft-arxiv.png" alt="Backpropagation-Free Test-Time Adaptation on arXiv" /></a></div>
   </li>
   <li class="news-item item-publication">
     <span class="news-tag">Publication</span>
