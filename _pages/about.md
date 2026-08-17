@@ -17,7 +17,7 @@ News
   </li>
   <li class="news-item item-publication">
     <span class="news-tag">Publication</span>
-    <div class="news-content">Our paper <strong>Backpropagation-Free Test-Time Adaptation for Lightweight EEG-Based Brain-Computer Interfaces</strong> has been accepted by <strong>IEEE Journal of Biomedical and Health Informatics (JBHI)</strong>! (<a href="https://arxiv.org/abs/2601.07556">arXiv preprint</a>)</div>
+    <div class="news-content">Our paper <strong>Backpropagation-Free Test-Time Adaptation for Lightweight EEG-Based Brain-Computer Interfaces</strong> has been accepted by <strong>IEEE Journal of Biomedical and Health Informatics (JBHI)</strong>! (<a href="https://arxiv.org/abs/2601.07556">arXiv preprint</a>) Many thanks to my co-first authors <strong>Jiayi Ouyang</strong> and <strong>Zhenyao Cui</strong>!</div>
   </li>
   <li class="news-item item-publication">
     <span class="news-tag">Publication</span>
@@ -59,29 +59,30 @@ Selected Publications
 
 <div class="pub-list">
   <div class="pub">
-    <div class="pub-title">StackingNet: Collective Inference Across Independent AI Foundation Models</div>
+    <div class="pub-title"><a href="https://doi.org/10.1002/advs.76488">StackingNet: Collective Inference Across Independent AI Foundation Models</a></div>
     <div class="pub-authors"><strong>Siyang Li</strong>, Chenhao Liu, Dongrui Wu<sup>📩</sup>, Zhigang Zeng<sup>📩</sup>, Lieyun Ding<sup>📩</sup></div>
     <div class="pub-venue"><em><a href="https://doi.org/10.1002/advs.76488">Advanced Science</a></em> <span class="pub-year">2026</span> <a class="pub-link" href="https://github.com/sylyoung/TestEnsemble">Code</a></div>
   </div>
   <div class="pub">
-    <div class="pub-title">Backpropagation-Free Test-Time Adaptation for Lightweight EEG-Based Brain-Computer Interfaces</div>
-    <div class="pub-authors"><strong>Siyang Li</strong>, Jiayi Ouyang, Zhenyao Cui, Ziwei Wang, Tianwang Jia, Feng Wan, Dongrui Wu</div>
-    <div class="pub-venue"><em><a href="https://arxiv.org/abs/2601.07556">IEEE Journal of Biomedical and Health Informatics (JBHI)</a></em> <span class="pub-year">2026</span> <span class="pub-accepted">Accepted</span></div>
+    <div class="pub-title"><a href="https://arxiv.org/abs/2601.07556">Backpropagation-Free Test-Time Adaptation for Lightweight EEG-Based Brain-Computer Interfaces</a></div>
+    <div class="pub-authors"><strong>Siyang Li</strong><sup>†</sup>, Jiayi Ouyang<sup>†</sup>, Zhenyao Cui<sup>†</sup>, Ziwei Wang, Tianwang Jia, Feng Wan, Dongrui Wu<sup>📩</sup></div>
+    <div class="pub-venue"><em><a href="https://arxiv.org/abs/2601.07556">IEEE Journal of Biomedical and Health Informatics (JBHI)</a></em> <span class="pub-year">2026</span> <a class="pub-link" href="https://arxiv.org/abs/2601.07556">arXiv</a></div>
+    <div class="pub-note">† Equal contribution · 📩 Corresponding author</div>
   </div>
   <div class="pub">
-    <div class="pub-title">Black-Box Test-Time Ensemble</div>
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/11353100/">Black-Box Test-Time Ensemble</a></div>
     <div class="pub-authors"><strong>Siyang Li</strong>, Ziwei Wang, Chenhao Liu, Dongrui Wu<sup>📩</sup></div>
     <div class="pub-venue"><em><a href="https://ieeexplore.ieee.org/document/11353100/">IEEE CIM</a></em> <span class="pub-year">2026</span> <a class="pub-link" href="https://github.com/sylyoung/TestEnsemble">Code</a></div>
     <div class="pub-awards"><span class="pub-award">Poster, the 2nd Chinese Conference on Brain-Machine Intelligence (ChinaBMI), CAAI, 2025</span><span class="pub-award pub-award--patent">China Patent</span></div>
   </div>
   <div class="pub">
-    <div class="pub-title">Canine EEG helps human: cross-species and cross-modality epileptic seizure detection via multi-space alignment</div>
+    <div class="pub-title"><a href="https://academic.oup.com/nsr/article/12/6/nwaf086/8052010">Canine EEG helps human: cross-species and cross-modality epileptic seizure detection via multi-space alignment</a></div>
     <div class="pub-authors">Ziwei Wang, <strong>Siyang Li</strong>, Dongrui Wu<sup>📩</sup></div>
     <div class="pub-venue"><em><a href="https://academic.oup.com/nsr/article/12/6/nwaf086/8052010">NSR</a></em> <span class="pub-year">2025</span></div>
     <div class="pub-awards"><span class="pub-award pub-award--media"><a href="https://www.eurekalert.org/news-releases/1079947">EurekAlert!</a></span></div>
   </div>
   <div class="pub">
-    <div class="pub-title">T-TIME: Test-Time Information Maximization Ensemble for Plug-and-Play BCIs</div>
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10210666">T-TIME: Test-Time Information Maximization Ensemble for Plug-and-Play BCIs</a></div>
     <div class="pub-authors"><strong>Siyang Li</strong>, Ziwei Wang, Hanbin Luo, Lieyun Ding<sup>📩</sup>, Dongrui Wu<sup>📩</sup></div>
     <div class="pub-venue"><em><a href="https://ieeexplore.ieee.org/abstract/document/10210666">IEEE TBME</a></em> <span class="pub-year">2024</span> <a class="pub-link" href="https://github.com/sylyoung/DeepTransferEEG">Code</a></div>
     <div class="pub-awards"><span class="pub-award">Youth Paper Defense Competition Award, World Robot Contest (WRC) - BCI Track, 2023</span><span class="pub-award">Poster, Spotlight, the 1st Chinese Conference on Brain-Machine Intelligence (ChinaBMI), CAAI, 2024</span><span class="pub-award pub-award--patent">China Patent</span></div>
