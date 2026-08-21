@@ -86,6 +86,12 @@ Selected Publications
     <div class="pub-venue"><em><a href="https://ieeexplore.ieee.org/abstract/document/10210666">IEEE Transactions on Biomedical Engineering</a></em> <span class="pub-year">2024</span> <a class="pub-link" href="https://github.com/sylyoung/DeepTransferEEG">Code</a></div>
     <div class="pub-awards"><span class="pub-award">Youth Paper Defense Competition Award, World Robot Contest (WRC) - BCI Track, 2023</span><span class="pub-award">Poster, Spotlight, the 1st Chinese Conference on Brain-Machine Intelligence (ChinaBMI), CAAI, 2024</span><span class="pub-award pub-award--patent">China Patent</span></div>
   </div>
+  <div class="pub">
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/9942685">Meta-Learning for Fast and Privacy-Preserving Source Knowledge Transfer of EEG-Based BCIs</a></div>
+    <div class="pub-authors"><strong>Siyang Li</strong>, Huanyu Wu, Lieyun Ding, Dongrui Wu<sup>📩</sup></div>
+    <div class="pub-venue"><em><a href="https://ieeexplore.ieee.org/document/9942685">IEEE Computational Intelligence Magazine</a></em> <span class="pub-year">2022</span> <a class="pub-link" href="https://github.com/sylyoung/MetaEEG">Code</a></div>
+    <div class="pub-awards"><span class="pub-award pub-award--patent">China Patent</span></div>
+  </div>
 </div>
 
 Code
