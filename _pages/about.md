@@ -23,7 +23,7 @@ News
   </li>
   <li class="news-item item-publication">
     <span class="news-tag">Publication</span>
-    <div class="news-content">Our paper <strong>Backpropagation-Free Test-Time Adaptation for Lightweight EEG-Based Brain-Computer Interfaces</strong> has been accepted by <a href="https://arxiv.org/abs/2601.07556"><strong>IEEE Journal of Biomedical and Health Informatics</strong></a>! Many thanks to my co-first authors <strong>Jiayi Ouyang</strong> and <strong>Zhenyao Cui</strong>!<a class="news-figure" href="/images/2026-bft-arxiv.png" target="_blank"><img src="/images/2026-bft-arxiv.png" alt="Backpropagation-Free Test-Time Adaptation on arXiv" /></a></div>
+    <div class="news-content">Our paper <strong>Backpropagation-Free Test-Time Adaptation for Lightweight EEG-Based Brain-Computer Interfaces</strong> is now published (Early Access) in <a href="https://ieeexplore.ieee.org/document/11659054"><strong>IEEE Journal of Biomedical and Health Informatics</strong></a>! Many thanks to my co-first authors <strong>Jiayi Ouyang</strong> and <strong>Zhenyao Cui</strong>!<a class="news-figure" href="/images/2026-bft-jbhi.png" target="_blank"><img src="/images/2026-bft-jbhi.png" alt="Backpropagation-Free Test-Time Adaptation in IEEE Journal of Biomedical and Health Informatics" /></a></div>
   </li>
   <li class="news-item item-publication">
     <span class="news-tag">Publication</span>
@@ -64,9 +64,9 @@ Selected Publications
     <div class="pub-venue"><em><a href="https://doi.org/10.1002/advs.76488">Advanced Science</a></em> <span class="pub-year">2026</span> <a class="pub-link" href="https://github.com/sylyoung/TestEnsemble">Code</a></div>
   </div>
   <div class="pub">
-    <div class="pub-title"><a href="https://arxiv.org/abs/2601.07556">Backpropagation-Free Test-Time Adaptation for Lightweight EEG-Based Brain-Computer Interfaces</a></div>
+    <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/11659054">Backpropagation-Free Test-Time Adaptation for Lightweight EEG-Based Brain-Computer Interfaces</a></div>
     <div class="pub-authors"><strong>Siyang Li</strong><sup>†</sup>, Jiayi Ouyang<sup>†</sup>, Zhenyao Cui<sup>†</sup>, Ziwei Wang, Tianwang Jia, Feng Wan, Dongrui Wu<sup>📩</sup></div>
-    <div class="pub-venue"><em><a href="https://arxiv.org/abs/2601.07556">IEEE Journal of Biomedical and Health Informatics</a></em> <span class="pub-year">2026</span> <a class="pub-link" href="https://github.com/sylyoung/DeepTransferEEG">Code</a></div>
+    <div class="pub-venue"><em><a href="https://ieeexplore.ieee.org/document/11659054">IEEE Journal of Biomedical and Health Informatics</a></em> <span class="pub-year">2026</span> <a class="pub-link" href="https://github.com/sylyoung/DeepTransferEEG">Code</a></div>
   </div>
   <div class="pub">
     <div class="pub-title"><a href="https://ieeexplore.ieee.org/document/11353100/">Black-Box Test-Time Ensemble</a></div>
